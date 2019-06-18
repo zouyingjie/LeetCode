@@ -1,4 +1,4 @@
-package C992;
+package c992;
 
 class Solution {
     public int[] sortArrayByParityII(int[] A) {

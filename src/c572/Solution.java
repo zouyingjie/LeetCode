@@ -1,4 +1,4 @@
-package C572;
+package c572;
 
 import node.TreeNode;
 
