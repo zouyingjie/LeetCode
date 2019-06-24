@@ -1,6 +1,7 @@
 package main
 
 func lengthOfLongestSubstring(s string) int {
+
 	m := make(map[rune]int)
 	maxLength := 0
 	start := 0
@@ -17,7 +18,6 @@ func lengthOfLongestSubstring(s string) int {
 		}
 		m[value] = index
 	}
-
 	return maxLength
 }
 

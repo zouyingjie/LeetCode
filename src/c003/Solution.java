@@ -11,11 +11,10 @@ public class Solution {
         int maxLength = 0;
 
         for (int i = 0; i < len; i++) {
-            char c = s.charAt(i);
 
+            char c = s.charAt(i);
             if (map.containsKey(c)) {
                 int lastIndex = map.get(c);
-
                 if (lastIndex >= start) {
                     start = lastIndex + 1;
                 }
@@ -25,13 +24,10 @@ public class Solution {
             if (currentLength > maxLength) {
                 maxLength = currentLength;
             }
+
             map.put(c, i);
         }
 
         return maxLength;
-    }
-
-    public static void main(String[] args) {
-//
     }
 }
