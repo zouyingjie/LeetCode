@@ -27,7 +27,6 @@ public class Solution {
 
             map.put(c, i);
         }
-
         return maxLength;
     }
 }

@@ -10,9 +10,11 @@ class Solution {
             isNegative = true;
             x = Math.abs(x);
         }
+
         while (x % 10 == 0) {
             x = x / 10;
         }
+
         StringBuffer str = new StringBuffer(String.valueOf(x));
         StringBuffer reverseStr = str.reverse();
         int result = Integer.valueOf(reverseStr.toString());
@@ -20,10 +22,5 @@ class Solution {
             result = -result;
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        s.reverse(120);
     }
 }

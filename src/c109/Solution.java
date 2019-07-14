@@ -1,49 +1,92 @@
 package c109;
 
+import node.ListNode;
 import node.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
 
+
 class Solution {
+    public TreeNode sortedListToBST(ListNode head) {
 
-    private List<List<Integer>> result = new ArrayList<>();
-
-    public List<List<Integer>> levelOrder(TreeNode root) {
-
-        if (root == null) {
-            return result;
-        }
-        List<TreeNode> nodes = new ArrayList<>();
-        nodes.add(root);
-        this.bfs(nodes);
-        return result;
+        return this.findRoot(head, null);
 
     }
 
-    public void bfs(List<TreeNode> treeNodes) {
-        int length = treeNodes.size();
-        if (length == 0) {
-            return;
+    private TreeNode findRoot(ListNode head, ListNode tail) {
+
+        if (head == tail) {
+            return null;
         }
 
-        List<TreeNode> nodes = new ArrayList<>();
-        List<Integer> nodeVals = new ArrayList<>();
+        ListNode fast = head;
+        ListNode slow = head;
 
-        for (int i = 0; i < length; i ++) {
-            TreeNode node = treeNodes.get(i);
-            nodeVals.add(node.val);
-
-            if (node.left != null) {
-                nodes.add(node.left);
-            }
-            if (node.right != null) {
-                nodes.add(node.right);
-            }
+        while (fast != tail && fast.next != tail) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
 
-        this.result.add(nodeVals);
-        this.bfs(nodes);
+        TreeNode node = new TreeNode(slow.val);
+        node.left = findRoot(head, slow);
+        node.right = findRoot(slow.next , tail);
+        return node;
 
     }
+//    public TreeNode sortedListToBST(ListNode head) {
+//
+//        List<Integer> list = new ArrayList<>();
+//
+//        ListNode node = head;
+//        while (node != null) {
+//            list.add(node.val);
+//            node = node.next;
+//        }
+//
+//        int len = list.size();
+//
+//        return findRoot(0, len-1, list);
+//
+//
+//    }
+//
+//    private TreeNode findRoot(int start, int end, List<Integer> list) {
+//
+//        if (start > end) {
+//            return null;
+//        }
+//
+//        int rootIndex = 0;
+//        if (end - start == 1) {
+//            rootIndex = end;
+//        }else {
+//            rootIndex = (int) Math.ceil( ((double) end + start) / 2);
+//        }
+//
+//
+//        int val = list.get(rootIndex);
+//
+//        TreeNode node = new TreeNode(val);
+//
+//        node.left = findRoot(start, rootIndex - 1, list);
+//        node.right = findRoot(rootIndex + 1, end , list);
+//        return node;
+//    }
+
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        ListNode n0 = new ListNode(0);
+        ListNode n1 = new ListNode(1);
+        ListNode n2 = new ListNode(2);
+        ListNode n3 = new ListNode(3);
+        ListNode n4 = new ListNode(4);
+
+        n0.next = n1;
+        n1.next = n2;
+        n2.next = n3;
+        n2.next = n4;
+        s.sortedListToBST(n0);
+    }
+
 }

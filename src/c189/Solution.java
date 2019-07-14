@@ -1,5 +1,6 @@
 package c189;
 
+import java.net.Socket;
 import java.util.Arrays;
 
 class Solution {
@@ -9,34 +10,27 @@ class Solution {
      * @param nums
      * @param k
      */
+
+    private int len = 0;
     public void rotate(int[] nums, int k) {
-        int length = nums.length;
-        int roratePoint = 0;
-        if (k > length) {
-            roratePoint = 0;
-        }else {
-            roratePoint = length - k;
-        }
-        int[] nums1 = Arrays.copyOfRange(nums, 0, roratePoint);
-        int[] nums2 = Arrays.copyOfRange(nums, roratePoint, length);
+        this.len = nums.length;
+        k = k % len;
 
-        for (int i = 0; i < nums1.length; i ++) {
-            nums[k+i] = nums1[i];
-        }
-        for (int i = 0; i < nums2.length; i ++) {
-           nums[i] = nums2[i];
-        }
-
-        for (int i = 0; i < nums.length; i ++) {
-            System.out.println(nums[i]);
-        }
-
+        reverse(nums, 0, len - 1);
+        reverse(nums,0, k-1);
+        reverse(nums,k, len - 1);
     }
 
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        int[] nums = {1, 2};
 
-        s.rotate(nums, 3);
+    public void reverse(int[] nums, int start, int end) {
+
+        while (start <= end) {
+            int tmp = nums[end];
+            nums[end] = nums[start];
+            nums[start] = tmp;
+
+            start ++;
+            end --;
+        }
     }
 }
