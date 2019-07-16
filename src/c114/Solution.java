@@ -3,46 +3,30 @@ package c114;
 import node.TreeNode;
 
 class Solution {
+
     public void flatten(TreeNode root) {
-
-        return;
+        postOrder(root);
     }
 
-    private TreeNode preOrder(TreeNode node) {
+    private TreeNode postOrder(TreeNode node) {
+        if (node == null) {
+            return null;
+        }
 
+        TreeNode left = postOrder(node.left);
+        TreeNode right = postOrder(node.right);
 
-//          node.right = preOrder(node.left);
-//          preOrder(node.right);
-//        TreeNode tmpNode = node.right;
-//        node.left
+        if (left != null) {
 
-//        TreeNode rignt = node.right;
-//        if (node.left != null) {
-//            TreeNode tmpNode = dfs(node.left);
-//            node.right = tmpNode;
-//            while (tmpNode != null && tmpNode.right != null) {
-//                tmpNode = tmpNode.right;
-//            }
-//            tmpNode.right=rignt;
-//            node.left = null;
-//            return node;
-//        }else {
-//            return dfs(node.right);
-//        }
-        return null;
+            TreeNode tmpLeft = left;
+            while (tmpLeft.right != null) {
+                tmpLeft = tmpLeft.right;
+            }
 
-    }
-
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        TreeNode root = new TreeNode(1);
-
-//        root.left = new TreeNode(2);
-        root.right = new TreeNode(2);
-//        root.left.left = new TreeNode(3);
-//        root.left.right = new TreeNode(4);
-        root.right.left = new TreeNode(3);
-
-        s.flatten(root);
+            tmpLeft.right = right;
+            node.right = left;
+            node.left = null;
+        }
+        return node;
     }
 }
