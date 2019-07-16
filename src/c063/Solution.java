@@ -11,7 +11,6 @@ class Solution {
         int row = obstacleGrid.length;
         int col = obstacleGrid[0].length;
 
-
         this.grid = new int[row][col];
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
