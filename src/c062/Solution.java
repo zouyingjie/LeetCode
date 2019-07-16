@@ -1,12 +1,8 @@
 package c062;
 
-import java.util.HashMap;
-import java.util.Map;
-
 class Solution {
 
     private int grid[][];
-
 
     public int uniquePaths(int m, int n) {
 
