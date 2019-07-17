@@ -13,76 +13,9 @@ public class Solution {
     private boolean targetInLeft = false;
     private List<Integer> list = new ArrayList<>();
     public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
-        if (K == 0) {
-            list.add(target.val);
-            return list;
-        }
-
-        this.K = K;
-        this.target = target;
-        findChildren(target, 0);
-        if (target == root) {
-            return list;
-        }
-
-        getRootDistance(root.left, 1, true);
-        getRootDistance(root.right, 1, false);
-
-        if (rootToTargetDistance == K) {
-            list.add(target.val);
-            return list;
-        }
-        if (rootToTargetDistance < K) { // 不同侧
-            int diff = K - rootToTargetDistance;
-            this.K = diff;
-            if (this.targetInLeft) {
-                findChildren(root.right, 1);
-            }else {
-                findChildren(root.left, 1);
-            }
-        }else { //同侧
-            int diff = rootToTargetDistance - K;
-            this.K = diff;
-            if (this.targetInLeft) {
-                findChildren(root.left, 1);
-            }else {
-                findChildren(root.right, 1);
-            }
-        }
-        return this.list;
+        return null;
     }
 
-    private void findChildren(TreeNode node, int distance) {
-        if (node == null) {
-            return;
-        }
-
-        if (distance == this.K) {
-            this.list.add(node.val);
-            return;
-        }
-        distance += 1;
-
-        findChildren(node.left, distance);
-        findChildren(node.right, distance);
-    }
-
-    private void getRootDistance(TreeNode node, int distance, boolean isLeft) {
-        if (node == null) {
-            return;
-        }
-
-
-        if (node == target) {
-            this.rootToTargetDistance = distance;
-            this.targetInLeft = isLeft;
-            return;
-        }
-
-        distance += 1;
-        getRootDistance(node.left, distance, isLeft);
-        getRootDistance(node.right, distance, isLeft);
-    }
 
 
     public static void main(String[] args) {
