@@ -1,22 +1,35 @@
 package c198;
 
 class Solution {
+
+    private int[] nums;
+    private int result = Integer.MIN_VALUE;
     public int rob(int[] nums) {
-        int num1 = 0;
-        int num2 = 0;
+
         int length = nums.length;
-        int i = 0, j = 0;
-        for ( ;j < length; ) {
-            num1 += nums[i];
-            num2 += nums[j];
-            i += 2;
-            j += 2;
+        this.nums = nums;
+        if (length == 0) {
+            return 0;
         }
-
-        if (i < length) {
-            num1 += nums[i];
+        if (length == 2) {
+            return nums[0];
         }
+        if (length == 0) {
+            Math.max(nums[0], nums[1]);
+        }
+        helper(length-1, 0);
+        helper(length-2, 0);
+        return this.result;
 
-        return Math.max(num1, num2);
+    }
+
+    private void helper(int index, int val){
+
+        if (index < 0) {
+            result = Math.max(result, val);
+            return;
+        }
+        helper(index-2, val + nums[index]);
+
     }
 }
