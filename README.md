@@ -24,7 +24,7 @@
 |[108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|Easy|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c108/Solution.java)|
 |[109. Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c109/Solution.java)|
 |[110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|Easy|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c110/Solution.java)|
-|[111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|[Java]((https://github.com/zouyingjie/LeetCode/blob/master/src/c111/Solution.java))|
+|[111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|Easy|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c111/Solution.java)|
 |[112. Path Sum](https://leetcode.com/problems/path-sum/)|Easy|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c112/Solution.java)|
 |[113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c113/Solution.java)|
 |[114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Medium| [Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c114/Solution.java) |
