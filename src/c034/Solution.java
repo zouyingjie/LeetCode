@@ -3,6 +3,29 @@ package c034;
 import java.util.ArrayList;
 import java.util.List;
 
+class Demo{
+
+    private static  void foo(){
+        bar1();
+        bar2();
+
+    }
+
+    private static  void bar1(){
+
+    }
+
+    private static  void bar2(){
+
+    }
+
+    public static void main(String[] args) {
+        foo();
+    }
+}
+
+
+
 class Solution {
     public int[] searchRange(int[] nums, int target) {
 
@@ -30,3 +53,5 @@ class Solution {
         return result;
     }
 }
+
+
