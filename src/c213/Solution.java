@@ -61,4 +61,11 @@ class Solution {
         }
 
     }
+
+    public static void main(String[] args) {
+        String A = "aa";
+        String B = "aa";
+        System.out.println(A == B);
+        System.out.println(A.equals(B));
+    }
 }
