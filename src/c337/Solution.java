@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class Solution {
 
-//     解法一：递归纠结
+//     解法一：递归求解，实际测试 1000 ms
 //    public int rob(TreeNode root) {
 //
 //        return Math.max(helper(root, true), helper(root, false));
@@ -29,7 +29,7 @@ public class Solution {
 //        return val;
 //    }
 
-//    解法二：空间换时间
+//    解法二：空间换时间，实际测试 7ms
 //    private Map<TreeNode, Integer> robParentMap = new HashMap<>();
 //    private Map<TreeNode, Integer> notRobParentMap = new HashMap<>();
 //
@@ -60,7 +60,7 @@ public class Solution {
 //        }
 //    }
 
-    // 解法三：后序遍历
+    // 解法三：后序遍历，实际测试 1ms
     public int rob(TreeNode root) {
 
         int[] nums = postOrder(root);
