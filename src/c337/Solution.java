@@ -81,4 +81,19 @@ public class Solution {
         return new int[]{num1, num2};
 
     }
+
+    private int helper(int num) {
+        if (num <= 2) {
+            return 0;
+        }
+        return helper(num-1) + helper(num - 2) + helper(num - 3) + 1;
+
+    }
+
+    public static void main(String[] args) {
+        Solution s = new Solution();
+        System.out.println(s.helper(100));
+        System.out.println(s.helper(100000));
+        System.out.println(s.helper(20000000));
+    }
 }
