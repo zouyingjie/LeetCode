@@ -35,5 +35,5 @@
 |[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c200/Solution.java)|
 |[202. Happy Number](https://leetcode.com/problems/happy-number/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c202/Solution.java)|
 |[213. House Robber II](https://leetcode.com/problems/house-robber-ii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c213/Solution.java)|
-|[328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/328/Solution.java)|
+|[328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c328/Solution.java)|
 |[337. House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c337/Solution.java)|
