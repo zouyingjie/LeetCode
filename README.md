@@ -33,5 +33,7 @@
 |[198. House Robber](https://leetcode.com/problems/house-robber/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c198/Solution.java)|
 |[199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c199/Solution.java)|
 |[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c200/Solution.java)|
+|[202. Happy Number](https://leetcode.com/problems/happy-number/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c202/Solution.java)|
 |[213. House Robber II](https://leetcode.com/problems/house-robber-ii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c213/Solution.java)|
+|[328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/328/Solution.java)|
 |[337. House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c337/Solution.java)|
