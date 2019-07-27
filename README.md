@@ -37,3 +37,4 @@
 |[213. House Robber II](https://leetcode.com/problems/house-robber-ii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c213/Solution.java)|
 |[328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c328/Solution.java)|
 |[337. House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c337/Solution.java)|
+|[394. Decode String](https://leetcode.com/problems/decode-string/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c394/Solution.java)|
