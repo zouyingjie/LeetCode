@@ -1,7 +1,7 @@
 # LeetCode
 
 
-题目 | 难度 |代码 | 做题简记
+题目 | 难度 |代码 | 解题报告
 ---|--- | --- | ---
 [1. Two Sum](https://leetcode.com/problems/two-sum/)| Easy |[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c001/Solution.java)，[Go](https://github.com/zouyingjie/LeetCode/blob/master/src/c001/solution.go) | 
 [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| Medium |[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c002/Solution.java)，[Go](https://github.com/zouyingjie/LeetCode/blob/master/src/c002/solution.go) | 
@@ -36,5 +36,5 @@
 |[202. Happy Number](https://leetcode.com/problems/happy-number/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c202/Solution.java)|
 |[213. House Robber II](https://leetcode.com/problems/house-robber-ii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c213/Solution.java)|
 |[328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c328/Solution.java)|
-|[337. House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c337/Solution.java)|
+|[337. House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c337/Solution.java)| [解题报告](https://www.zouyingjie.com/post/-leetcode337.-house-robber-iii%E5%81%9A%E9%A2%98%E7%AE%80%E8%AE%B0/)
 |[394. Decode String](https://leetcode.com/problems/decode-string/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c394/Solution.java)|
