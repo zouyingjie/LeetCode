@@ -13,8 +13,8 @@
 [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c064/Solution.java)|
 |[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|Easy|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c070/Solution.java)|
 |[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c094/Solution.java)||
-|[95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c095/Solution.java))|[解题报告](https://www.zouyingjie.com/post/-leetcode9596-unique-binary-search-tree简记/)
-|[96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c096/Solution.java))|[解题报告](https://www.zouyingjie.com/post/-leetcode9596-unique-binary-search-tree简记/)
+|[95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c095/Solution.java)|[解题报告](https://www.zouyingjie.com/post/-leetcode9596-unique-binary-search-tree简记/)
+|[96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c096/Solution.java)|[解题报告](https://www.zouyingjie.com/post/-leetcode9596-unique-binary-search-tree简记/)
 |[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|Medium|[Java]()|
 |[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|Easy|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c101/Solution.java)|
 |[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c102/Solution.java)||
