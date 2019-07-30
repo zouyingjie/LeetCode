@@ -23,7 +23,6 @@ class Solution {
 
     public Node copyRandomList(Node head) {
 
-
         return helper(head);
     }
 
@@ -36,6 +35,7 @@ class Solution {
         Node random = node.random;
 
         helper(next);
+        helper(random);
 
         Node tmp = new Node(node.val, next, random);
 
