@@ -17,7 +17,7 @@ class Solution {
                 }
             }
         }
-
+        return null;
     }
 
     private void swap(ListNode preNode, ListNode node1, ListNode node2) {
@@ -29,6 +29,5 @@ class Solution {
             preNode.next = node2;
         }
 
-        finalize();
     }
 }

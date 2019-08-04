@@ -13,8 +13,8 @@
 [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c064/Solution.java)|
 |[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|Easy|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c070/Solution.java)|
 |[94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c094/Solution.java)||
-|[95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c095/Solution.java)|[解题报告](https://www.zouyingjie.com/post/-leetcode9596-unique-binary-search-tree简记/)
-|[96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c096/Solution.java)|[解题报告](https://www.zouyingjie.com/post/-leetcode9596-unique-binary-search-tree简记/)
+|[95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c095/Solution.java)|[解题报告](https://www.zouyingjie.com/post/-LeetCode9596-Unique-Binary-Search-Tree%E7%AE%80%E8%AE%B0/)
+|[96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c096/Solution.java)|[解题报告](https://www.zouyingjie.com/post/-LeetCode9596-Unique-Binary-Search-Tree%E7%AE%80%E8%AE%B0/)
 |[98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|Medium|[Java]()|
 |[101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|Easy|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c101/Solution.java)|
 |[102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c102/Solution.java)||
@@ -32,11 +32,11 @@
 |[114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| Medium| [Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c114/Solution.java) |
 |[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c153/Solution.java)|
 |[154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|Hard|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c154/Solution.java)|
-|[198. House Robber](https://leetcode.com/problems/house-robber/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c198/Solution.java)|[解题报告](https://www.zouyingjie.com/post/-leetcode198.-house-robber%E7%AE%80%E8%AE%B0/)
+|[198. House Robber](https://leetcode.com/problems/house-robber/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c198/Solution.java)|[解题报告](https://www.zouyingjie.com/post/-LeetCode198.-House-Robber%E7%AE%80%E8%AE%B0/)
 |[199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c199/Solution.java)|
 |[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c200/Solution.java)|
 |[202. Happy Number](https://leetcode.com/problems/happy-number/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c202/Solution.java)|
 |[213. House Robber II](https://leetcode.com/problems/house-robber-ii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c213/Solution.java)|
 |[328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c328/Solution.java)|
-|[337. House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c337/Solution.java)| [解题报告](https://www.zouyingjie.com/post/-leetcode337.-house-robber-iii%E5%81%9A%E9%A2%98%E7%AE%80%E8%AE%B0/)
+|[337. House Robber III](https://leetcode.com/problems/house-robber-iii/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c337/Solution.java)| [解题报告](https://www.zouyingjie.com/post/-LeetCode337.-House-Robber-III%E5%81%9A%E9%A2%98%E7%AE%80%E8%AE%B0/)
 |[394. Decode String](https://leetcode.com/problems/decode-string/)|Medium|[Java](https://github.com/zouyingjie/LeetCode/blob/master/src/c394/Solution.java)|

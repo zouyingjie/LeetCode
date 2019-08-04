@@ -17,7 +17,6 @@ class Solution {
     private List<TreeNode> helper(int start, int end) {
         List<TreeNode> nodes = new ArrayList<>();
 
-
         if (start > end) {
             nodes.add(null);
             return nodes;
@@ -32,8 +31,6 @@ class Solution {
         for (int i = start; i <= end; i ++) {
             leftNodes = helper(start, i - 1);
             rightnodes = helper(i + 1, end);
-
-
 
             for (TreeNode leftNode: leftNodes) {
                 for (TreeNode rightNode: rightnodes) {
