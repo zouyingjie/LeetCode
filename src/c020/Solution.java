@@ -17,6 +17,7 @@ class Solution {
             }else {
                 stack.pop();
             }
+
         }
 
         return stack.empty();
