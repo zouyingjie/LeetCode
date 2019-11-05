@@ -11,7 +11,6 @@ class Solution {
         for (int i = 0; i < length; i++) {
             char c = s.charAt(i);
 
-
             if (!this.isEqual(stack.peek(), c) || stack.empty() ) {
                 stack.push(c);
             }else {
