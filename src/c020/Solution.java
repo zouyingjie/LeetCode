@@ -20,6 +20,7 @@ class Solution {
         }
         return stack.empty();
 
+
     }
 
     public static void main(String[] args) {
