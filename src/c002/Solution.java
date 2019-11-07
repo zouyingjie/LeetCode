@@ -8,6 +8,7 @@ class Solution {
         ListNode result = new ListNode(0);
         ListNode tail = result;
 
+
         int isopsephy = 0;
 
         while (l1 != null || l2 != null) {
