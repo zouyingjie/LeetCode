@@ -1,6 +1,7 @@
-package c094;
+package com.zyj.c144;
 
-import com.leetcode.common.TreeNode;
+
+import com.zyj.common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,19 +9,18 @@ import java.util.List;
 class Solution {
     private List<Integer> result = new ArrayList<>();
 
-    public List<Integer> inorderTraversal(TreeNode root) {
-        inOrder(root);
+    public List<Integer> preorderTraversal(TreeNode root) {
+        preOrder(root);
         return result;
     }
 
-    private void inOrder(TreeNode node) {
+    private void preOrder(TreeNode node) {
         if (node == null) {
             return;
         }
 
-        inOrder(node.left);
         result.add(node.val);
-        inOrder(node.right);
-
+        preOrder(node.left);
+        preOrder(node.right);
     }
 }

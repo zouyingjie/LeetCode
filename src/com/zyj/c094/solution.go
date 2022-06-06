@@ -1,4 +1,4 @@
-package c094
+package com.zyj.c094
 
 type TreeNode struct {
 	Val   int
